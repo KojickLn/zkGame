@@ -53,5 +53,5 @@ Or open: https://kojickln.github.io/zkGame/
 
 ```bash
 git clone https://github.com/KojickLn/zkGame.git
-cd zk-quest
+cd zkGame
 # Open index.html in your browser
