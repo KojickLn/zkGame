@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.png" />
+  <title>ZK Quest: Succinct Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="welcomeMessage">You are welcome<br>ZK Quest</div>
+    <button id="startBtn">Start Game</button>
+    <button id="rulesBtn">Game Rules</button>
+    <button id="restartBtn">Restart Game</button>
+    <button id="menuBtn" style="display:none;">Main Menu</button>
+    <div id="finalScore"></div>
+    <div id="game">
+        <div id="score">Score: 0</div>
+        <div id="message">Click about button</div>
+        <audio id="correctSound" src="assets/correct.mp3"></audio>
+        <audio id="wrongSound" src="assets/lose.mp3"></audio>
+        <audio id="endGameSound" src="assets/game-over.mp3"></audio>
+    </div>
+
+  <div id="logoMain">
+    <div class="logo">
+      <img src="assets/favicon.png" alt="Testnet">
+  </div> 
+
+  </div>  
+  <!-- Game Rules Modal -->
+  <div id="rulesModal" class="modal">
+    <div class="modal-content">
+      <span class="closeBtn">&times;</span>
+    </div>
+    <div id="gameRules">
+      <h2>📜 Game Rules</h2>
+      <p>1. ✅ Click valid buttons like ZKP, PROOF, SIGNAL, etc.</p>
+      <p>2. ❌ Avoid wrong buttons — these are bugs or attacks (HACK, MAL, ).</p>
+      <p>3. ☠️ If you click 3 wrong buttons, you lose.</p>
+      <p>4. ⏱️ If you miss 2 buttons (they fall off the screen), you also lose.</p>
+      <p>5. 🎯 Stay sharp and keep the ZK server stable!</p>
+    </div>
+  </div>
+
+  <div id="logoTestGit">
+    <a href="https://x.com/SuccinctLabs" target="_blank" id="testnetBtn">
+      <img src="assets/logo-succinct.png" alt="Testnet" />
+    </a>
+    <a href="https://github.com/KojickLn/zkGame" target="_blank" id="githubBtn">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" />
+    </a>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
