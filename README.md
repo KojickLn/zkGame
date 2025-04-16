@@ -49,7 +49,7 @@ ZK Quest is a browser-based game where you play as the defender of a Zero Knowle
 ## 📥 Installation & Launch
 
 Just open index.html in your browser — and start playing!  
-Or open: 
+Or open: https://kojickln.github.io/zkGame/
 
 ```bash
 git clone https://github.com/KojickLn/zkGame.git
